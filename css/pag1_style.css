@@ -1,0 +1,60 @@
+body{
+    margin: 20px;
+}
+.center{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
+.transparent{
+    opacity: 0.5;
+    color: grey;
+    font-size: 50px;
+}
+.bottom-border td, .bottom-border th{
+    border-bottom: 1px solid rgb(238, 201, 201);
+    padding: 15px 10px;
+}
+.bottom-border tr:first-child, .bottom-border tr:first-child{
+    border-top: 1px solid rgb(238, 201, 201);
+}
+.content td {
+    background-color: rgb(209, 193, 193);
+}
+table, th, td{
+    border-collapse: collapse;
+}
+.content {
+    width: 100%;
+}
+.content th{
+    width: 20%;
+}
+.left-side{
+    float: left;
+    width: 70%;
+    margin-right: 5%;
+    box-sizing: border-box;
+}
+.right-side{
+    float: left;
+    max-width:25%;
+    position: relative;
+}
+.footer{
+    clear: both;
+    background-color: lightgray;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: darkslategrey;
+}
+a:hover{
+    color: darkred;
+}
+a:active{
+    color: red;
+}
+

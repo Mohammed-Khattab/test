@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    background-color: rgb(204, 204, 204);
+    margin: 10px;
+    padding: 10px;
+    max-width:50%;
+}
+.caption{
+    background-color: rgb(167, 162, 162);
+    border-radius: 5px;
+    max-width: 80%;
+    margin-left: 10%;
+}
+.center{
+    text-align: center;
+}
+.surrounded{
+    border: 1px solid rgb(163, 160, 160);
+    border-radius: 5px;
+    padding: 3px;
+    margin: 2px;
+}
+.imgContainer{
+    border-radius: 10px;
+    margin-top: 2px;
+    max-width: 100%;
+}
+.header{
+    max-width: 50%;
+    height: 50px;
+    display:block;
+    box-sizing: border-box;
+}
+.header img{
+    padding-right: 20px;
+    max-width: 100px;
+    position: relative;
+    left: 15px;
+    float: left;
+}
+.header::after{
+    clear: both;
+}
+h1, h2, h3{
+    margin: 2px;
+}

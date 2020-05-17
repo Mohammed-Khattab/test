@@ -1,0 +1,56 @@
+body{
+    background-image: url("/images/bg.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+   background-attachment:fixed;
+}
+.center{
+    text-align: center;
+}
+.main{
+    background-color: rgba(46, 45, 92, 0.911);
+    color: white;
+    max-width: 80%;
+    box-sizing: border-box;
+    margin: 30px 20%;
+    border-radius: 10px;
+    border: 1px solid rgb(151, 151, 151);
+    padding: 10px;
+}
+form{
+    text-align: left;
+}
+fieldset{
+    border: 1px dotted grey;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+.personalDetails label{
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 70px;
+    display: inline-block;
+}
+fieldset input[type="radio"]{
+    margin-left: 10px;
+}
+#IQlabel{
+    width: 25px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+fieldset input{
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+textarea{
+    resize: none;
+}
+#submit{
+    background-color: navajowhite;
+    font-size: 16px;
+    color: rgb(82, 59, 17);
+    border-radius: 10px;
+}
