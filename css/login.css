@@ -27,7 +27,7 @@ button{
 }
 
 .main{
-    max-width: 35%;
+    max-width: 300px;
     margin: 20px auto;
     padding: 50px;
     background-color: white;
